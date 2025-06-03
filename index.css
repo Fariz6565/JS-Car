@@ -1,0 +1,29 @@
+*{
+    height: 100%;
+    margin: 0;
+}
+.all{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    }
+}
+
+  @keyframes walk {
+    0% { background-position: 0 0 }
+    100% { background-position: 120px 0 }
+  }
+  
+  .caminar {
+    animation: walk .25s steps(2) infinite forwards;
+  }
+  body{
+    background-color: rgb(252, 252, 252);
+  }
+
+
